@@ -1,16 +1,16 @@
 {
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Native automation and testing bridge for Tauri 2 applications",
   "homepage": "https://github.com/nyssance/tauri-hasgard",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v0.2.1/tauri-hasgard-0.2.1-x86_64-pc-windows-msvc.zip",
-      "hash": "44df7ea3ee803869ffed8a38ad55d20ee7baaf609baeb1e3bd62b901fe1eb0f5"
+      "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v0.3.0/tauri-hasgard-0.3.0-x86_64-pc-windows-msvc.zip",
+      "hash": "6d22e2103984361ae3054846881ebb6dfda845b05b2c3794795666a9e1e9776a"
     },
     "arm64": {
-      "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v0.2.1/tauri-hasgard-0.2.1-aarch64-pc-windows-msvc.zip",
-      "hash": "f4033da3bc3c3072175d95bf4e868adc6e32f8033d24c15e342068210774cd0c"
+      "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v0.3.0/tauri-hasgard-0.3.0-aarch64-pc-windows-msvc.zip",
+      "hash": "52162133cfb3c629a03f1e9d58bac298f3c75d449b5a6b4df90b5eaace916190"
     }
   },
   "bin": "tauri-hasgard.exe",

@@ -1,16 +1,18 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.1",
   "description": "Native automation and testing bridge for Tauri 2 applications",
   "homepage": "https://github.com/nyssance/tauri-hasgard",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v0.3.0/tauri-hasgard-0.3.0-x86_64-pc-windows-msvc.zip",
-      "hash": "6d22e2103984361ae3054846881ebb6dfda845b05b2c3794795666a9e1e9776a"
+      "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v0.4.1/tauri-hasgard-0.4.1-x86_64-pc-windows-msvc.zip",
+      "hash": "c2b476df1c01e75e7f1e82f8c46dd5328b7435190dc360253c24a9d2dac3d13f",
+      "extract_dir": "tauri-hasgard-0.4.1-x86_64-pc-windows-msvc"
     },
     "arm64": {
-      "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v0.3.0/tauri-hasgard-0.3.0-aarch64-pc-windows-msvc.zip",
-      "hash": "52162133cfb3c629a03f1e9d58bac298f3c75d449b5a6b4df90b5eaace916190"
+      "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v0.4.1/tauri-hasgard-0.4.1-aarch64-pc-windows-msvc.zip",
+      "hash": "f5b52a2f9de124414c1c20d86f4de2218f6dc6b887431ad30d9367abdcb3fd63",
+      "extract_dir": "tauri-hasgard-0.4.1-aarch64-pc-windows-msvc"
     }
   },
   "bin": "tauri-hasgard.exe",
@@ -20,10 +22,12 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v$version/tauri-hasgard-$version-x86_64-pc-windows-msvc.zip"
+        "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v$version/tauri-hasgard-$version-x86_64-pc-windows-msvc.zip",
+        "extract_dir": "tauri-hasgard-$version-x86_64-pc-windows-msvc"
       },
       "arm64": {
-        "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v$version/tauri-hasgard-$version-aarch64-pc-windows-msvc.zip"
+        "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v$version/tauri-hasgard-$version-aarch64-pc-windows-msvc.zip",
+        "extract_dir": "tauri-hasgard-$version-aarch64-pc-windows-msvc"
       }
     }
   }

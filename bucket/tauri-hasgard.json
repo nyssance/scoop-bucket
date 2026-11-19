@@ -1,13 +1,13 @@
 {
-  "version": "0.6.8",
+  "version": "0.6.10",
   "description": "Native automation and testing bridge for Tauri 3 Wry applications",
   "homepage": "https://github.com/nyssance/tauri-hasgard",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v0.6.8/tauri-hasgard-0.6.8-x86_64-pc-windows-msvc.zip",
-      "hash": "784c79f2466d9a62ca9d5d3ed9805cafa80cb4bb1f2d7d7cb4a4c6a9ed43bf21",
-      "extract_dir": "tauri-hasgard-0.6.8-x86_64-pc-windows-msvc"
+      "url": "https://github.com/nyssance/tauri-hasgard/releases/download/v0.6.10/tauri-hasgard-0.6.10-x86_64-pc-windows-msvc.zip",
+      "hash": "fcd81b2700dabcd9dd2ce7aea22be8cf1b4af53c5d62c2696b071b1852863426",
+      "extract_dir": "tauri-hasgard-0.6.10-x86_64-pc-windows-msvc"
     }
   },
   "bin": "tauri-hasgard.exe",
